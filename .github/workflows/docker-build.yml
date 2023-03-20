@@ -30,7 +30,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v4
         with:
-          images: DevOps-Furious/wordsmith-web
+          images: devops-furious/wordsmith-web
           flavor: |
             latest=false
           tags: |
